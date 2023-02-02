@@ -412,10 +412,21 @@ img {
   padding: 11px;
   margin-right: 24px;
 
+  color: rgba(255, 255, 255, 0.6);
+  letter-spacing: 0.04em;
+  font-size: 12px;
+  line-height: 2;
+  
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   background-color: transparent;
+}
+.form-input-footer::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+  letter-spacing: 0.04em;
+  font-size: 12px;
+  line-height: 2;
 }
 .form-field-footer {
   display: flex;
