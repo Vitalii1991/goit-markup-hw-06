@@ -175,6 +175,8 @@ img {
   line-height: 1.07;
 }
 .hero-btn {
+  min-width: 169px;
+  height: 56px;
   padding: 16px 32px;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -373,11 +375,17 @@ img {
 
   color: #e7e9fc;
 }
+.social-list.footer {
+  padding: 0;
+  gap: 16px;
+}
 .social-network {
   width: 208px;
+  margin-right: 80px;
 }
 .social-title {
   margin-top: 0;
+  margin-bottom: 16px;
 
   color: #ffffff;
   font-weight: 500;
@@ -387,6 +395,50 @@ img {
 }
 .social-network .social-link:is(:hover, :focus) {
   background-color: #31D0AA;
+}
+
+/* ----- Footer form ----- */
+
+.form-footer-title {
+  margin-top: 0;
+  margin-bottom: 16px;
+
+  color: #ffffff;
+  font-weight: 500;
+}
+.form-input-footer {
+  width: 264px;
+  height: 40px;
+  padding: 11px;
+  margin-right: 24px;
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: transparent;
+}
+.form-field-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+}
+.form-btn.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  min-width: 165px;
+  height: 40px;
+  margin: 0;
+  padding: 8px 24px;
+}
+.form-btn.footer::after {
+  content: "";
+  width: 24px;
+  height: 20px;
+
+  background-image: url(../images/icon-send.svg);
 }
 
 /* +++++ Porfolio Style +++++ */
@@ -558,6 +610,9 @@ img {
 .btn-close > svg {
   fill: currentColor;
 }
+
+/* ----- Modal form ----- */
+
 .title-modal {
   margin-top: 0;
   margin-bottom: 16px;
@@ -589,9 +644,6 @@ img {
 
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-}
-.form-input:focus {
-  border-color: var(--accent-color);
 }
 .icon-phone {
   position: absolute;
@@ -637,11 +689,11 @@ img {
 }
 .form-btn {
   display: block;
+  min-width: 169px;
+  height: 56px;
   margin-top: 24px;
   margin-right: auto;
   margin-left: auto;
-  width: 169px;
-  height: 56px;
   padding: 16px 32px;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
