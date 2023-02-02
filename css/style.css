@@ -585,10 +585,13 @@ img {
 .form-input {
   height: 40px;
   margin-bottom: 8px;
-  padding-left: 38px;
+  padding: 11px 11px 11px 38px;
 
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+}
+.form-input:focus {
+  border-color: var(--accent-color);
 }
 .icon-phone {
   position: absolute;
@@ -601,39 +604,53 @@ img {
 }
 .form-textarea {
   height: 120px;
-  resize: none;
   margin-bottom: 16px;
   padding: 8px 16px;
-
-  color: #8E8F99;
-  font-size: 12px;
-  line-height: 1.33;
-  letter-spacing: 0.04em;
+  resize: none;
 
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
 }
+.form-textarea::placeholder {
+  color: #8E8F99;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
+}
 .form-accept {
-  margin-bottom: 24px;
-
+  display: flex;
+  align-items: center;
+  
   color: #757575;
   font-size: 12px;
   line-height: 1.33;
   letter-spacing: 0.04em;
 }
-.privacy-police {
+.form-checkbox {
+  margin-right: 6px;
+}
+.form-checkbox[type="checkbox"] {
+}
+.privacy-police-link {
+  margin-left: 4px;
   color: var(--accent-color);
 }
 .form-btn {
   display: block;
+  margin-top: 24px;
   margin-right: auto;
   margin-left: auto;
   width: 169px;
   height: 56px;
   padding: 16px 32px;
 
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   color: #ffffff;
   background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+}
+.form-btn:is(:hover, :focus) {
+  background-color: var(--selection-color);
 }
