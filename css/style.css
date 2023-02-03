@@ -638,8 +638,10 @@ img {
   position: relative;
   display: flex;
   flex-direction: column;
+  margin-bottom: 8px;
 }
 .form-label {
+  display: block;
   margin-bottom: 4px;
 
   color: #8E8F99;
@@ -649,24 +651,25 @@ img {
 }
 .form-input {
   height: 40px;
-  margin-bottom: 8px;
+
   padding: 11px 11px 11px 38px;
 
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
 }
-.icon-phone {
+.icon-form {
   position: absolute;
   top: 50%;
+  transform: translateY(-50%);
   left: 19px;
 }
 .form-comment {
   display: flex;
   flex-direction: column;
+  margin-bottom: 16px;
 }
 .form-textarea {
   height: 120px;
-  margin-bottom: 16px;
   padding: 8px 16px;
   resize: none;
 
@@ -679,10 +682,12 @@ img {
   line-height: 1.33;
   letter-spacing: 0.04em;
 }
-.form-accept {
+.form-policy {
   display: flex;
   align-items: center;
-  
+  margin-bottom: 24px;
+}
+.form-accept {
   color: #757575;
   font-size: 12px;
   line-height: 1.33;
@@ -701,7 +706,6 @@ img {
   display: block;
   min-width: 169px;
   height: 56px;
-  margin-top: 24px;
   margin-right: auto;
   margin-left: auto;
   padding: 16px 32px;
