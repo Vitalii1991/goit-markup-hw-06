@@ -389,6 +389,7 @@ img {
 
   color: #ffffff;
   font-weight: 500;
+  font-size: 16px;
 }
 .social-network .social-link {
   background-color: rgba(255, 255, 255, 0.1);
@@ -400,8 +401,6 @@ img {
 /* ----- Footer form ----- */
 
 .form-footer-title {
-  margin: 0;
-
   color: #ffffff;
   font-weight: 500;
 }
