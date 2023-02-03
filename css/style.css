@@ -661,7 +661,7 @@ img {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
 }
-.form-input:focus {
+.form-input:focus, .form-textarea:focus {
   border-color: var(--accent-color);
 }
 .form-input:focus + .icon-form {
@@ -688,9 +688,6 @@ img {
   outline: transparent;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-}
-.form-textarea:focus {
-  border-color: var(--accent-color);
 }
 .form-textarea::placeholder {
   color: #8E8F99;
