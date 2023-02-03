@@ -634,7 +634,7 @@ img {
   line-height: 1.5;
   font-weight: 500;
 }
-.form-field {
+.form-wrap {
   position: relative;
   display: flex;
   flex-direction: column;
