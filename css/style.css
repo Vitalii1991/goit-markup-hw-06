@@ -400,8 +400,7 @@ img {
 /* ----- Footer form ----- */
 
 .form-footer-title {
-  margin-top: 0;
-  margin-bottom: 16px;
+  margin: 0;
 
   color: #ffffff;
   font-weight: 500;
@@ -432,6 +431,7 @@ img {
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-top: 16px;
   padding: 0;
 }
 .form-btn.footer {
