@@ -625,7 +625,7 @@ img {
 
 .title-modal {
   margin-top: 0;
-  margin-bottom: 16px;
+  margin-bottom: 14px;
 
   text-align: center;
 
@@ -699,7 +699,6 @@ img {
 .form-checkbox[type="checkbox"] {
 }
 .privacy-police-link {
-  margin-left: 4px;
   color: var(--accent-color);
 }
 .form-btn {
