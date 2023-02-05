@@ -638,11 +638,13 @@ img {
   line-height: 1.5;
   font-weight: 500;
 }
+.input-field {
+  margin-bottom: 8px;
+}
 .form-wrap {
   position: relative;
   display: flex;
   flex-direction: column;
-  margin-bottom: 8px;
 
   color: var(--title-text-color);
 }
